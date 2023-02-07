@@ -1,0 +1,93 @@
+.menu{
+    background-color:black;
+    padding-left: 50px;
+    display: flex;
+    height: 40px;
+}
+.menu1{
+    display: flex;
+    gap: 30px;
+    height: 30px;
+    list-style-type: none;
+    line-height: 40px;
+}
+.menu1 li{
+ 
+    color: rgb(255, 255, 255);
+
+}
+.menu1 li:hover{
+ 
+    color: rgb(57, 219, 7);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.content{              
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.content-left{
+    border-left: 1px solid black;
+    border-right:1px solid black ;   
+}
+
+.name{
+    font-size: 40px;
+    font-weight: bold;
+    color: blue;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+
+}
+.camera{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: burlywood;
+    width: 100%;
+}
+.sub-menu li{
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+}
+.sub-menu li:first-child{
+    border-top: 1px solid black;
+}
+.content-left h4{
+    padding:20px 0 ;
+}
+
+.camera img{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.logo{
+    border-radius:100px;
+    width:150px;
+    height: 150px;
+    object-fit: cover;
+}
+.head{
+    background-color:blue;
+    display: flex;
+
+}
+.arlet{
+    color: blueviolet;
+}
